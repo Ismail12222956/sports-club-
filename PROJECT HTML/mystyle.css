@@ -1,0 +1,205 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+}
+body{
+background-color: black;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpeg);
+background-size: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+ul{
+float: right;
+list-style-type: none;
+margin-top: 50px;
+margin-right: -100px;
+}
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: white;
+padding: 15px 20px;
+border: 0.5px solid white;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: green;
+color: black;
+} 
+
+.logo img{
+float: left;
+width: 160px;
+height: 160px;
+padding: 15px 20px;
+margin-left: -100px;
+}
+
+.main{
+max-width: 1200px;
+margin: auto;
+}
+
+.clubs{
+left: 72px;
+bottom: 35px;
+position: absolute;
+}
+.clubs ul li{
+list-style: none;
+margin-top: 25px;
+text-align: center;
+}
+.clubs ul li a{
+color: white;
+border-radius: 25%;
+border: 2px solid white;
+padding: 10px;
+display: block;
+}
+.clubs ul li a:hover{
+background-color: white;
+color: black;
+} 
+.clubs ul li h1{
+color: yellow;
+padding: 8px 12px;
+border-radius: 25%;
+border: 3px solid white;
+}
+.heading h1 a{
+color: yellow;
+padding: 15px 20px;
+border-radius: 30%;
+border: 3px solid white;
+cursor: pointer;
+}
+.heading h1 a:hover{
+background-color: white;
+color: black;
+}
+.heading h2{
+color: yellow;
+padding: 50px 50px;
+}
+.heading h3{
+color: yellow;
+}
+.heading p1{
+font-size: 20px;
+color: white;
+padding: 50px 15px;
+}
+.heading p2{
+font-size: 20px;
+color: white;
+padding: 50px 15px;
+}
+.end h1{
+font-size: 50px;
+color: yellow;
+padding: 50px 15px;
+/*border: 3px solid white;*/
+}
+
+/* java script */
+*
+{
+box-sizing: border-box;
+}
+body
+{
+font-family: Verdana, sans-serif;
+}
+
+.image-sliderfade
+{
+display: none;
+}
+
+img
+{
+vertical-align: middle;
+}
+
+/* Slideshow container */
+.container
+{
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+/* Caption text */
+.text
+{
+color: #f2f2f2;
+font-size: 20px;
+padding: 20px 15px;
+position: absolute;
+right: 10px;
+bottom: 10px;
+width: 40%;
+background: rgba(0, 0, 0, .7);
+text-align: left;
+}
+
+/* The dots/bullets/indicators */
+.dot
+{
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: transparent;
+border-color: #ddd;
+border-width: 5 px;
+border-style: solid;
+border-radius: 50%;
+display: inline-block;
+transition: border-color 0.6s ease;
+}
+
+.active
+{
+border-color: #666;
+}
+
+/* Animation */
+.fade
+{
+-webkit-animation-name: fade-image;
+-webkit-animation-duration: 1.5s;
+animation-name: fade-image;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade-image
+{
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade-image
+{
+from {opacity: .4}
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px)
+{
+.text {font-size: 11px}
+}
